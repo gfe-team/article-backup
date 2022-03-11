@@ -353,7 +353,7 @@ user task描绘为一个圆角矩形，在左上角是一个小用户图标。
 
 #### 3、脚本任务
 
-&ensp;&ensp;&ensp;&ensp; 脚本任务时一个自动活动，当到达这个任务的时候流程引擎会执行一个脚本。脚本任务使用方式如下：
+&ensp;&ensp;&ensp;&ensp; 脚本任务是一个自动活动，当到达这个任务的时候流程引擎会执行一个脚本。脚本任务使用方式如下：
 
 ```javascript
 <scriptTask id="scriptTask" name="Script Task" scriptLanguage="bsh">
@@ -377,7 +377,7 @@ user task描绘为一个圆角矩形，在左上角是一个小用户图标。
 
 #### 4、手工任务
 
-&ensp;&ensp;&ensp;&ensp; 手工任务时一个由外部人员执行的任务，但是没有指定是一个BPM系统或是一个服务会被调用。在真实世界里，有很多例子：安装一个电话系统，使用定期邮件发送一封信，用电话联系客户，等等。
+&ensp;&ensp;&ensp;&ensp; 手工任务是一个由外部人员执行的任务，但是没有指定是一个BPM系统或是一个服务会被调用。在真实世界里，有很多例子：安装一个电话系统，使用定期邮件发送一封信，用电话联系客户，等等。
 
 ```javascript
 <manualTask id="myManualTask" name="Call customer" />
